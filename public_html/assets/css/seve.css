@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v11/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.85em;
+}
+
+nav {
+	box-shadow: none;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+        color: dimgray;
+        background-color: lightgray;
+        height: 60px;
+        padding-top: 0.5%;
+        text-align: center;
+}
+
+.card-panel{
+	border: none;
+}
+
+.title-panel{
+	padding: 0;
+	text-align: center;
+}
+
+.seve-blue{
+	//background-color: #00a9d3; //blue
+	//background-color: #e45d25; //orange
+}
+
+.orange-text{
+    color: #e45d25;
+}
+
+.orange-bg {
+    background-color: #e45d25;
+}
+
+.panel-divider {
+	min-height: 500px;
+}
+
+.dropzone {
+	border: 2px dashed #e0e0e0;
+}
+
+.selected-text {
+	font-weight: bold;
+	color: #003a75;
+}
+
+.btn, .btn:link, .btn:visited {
+	height: 3em;
+	background-color: #e45d25;
+	box-shadow: none;
+	border: solid 2px #e45d25;
+	font-weight: bold;
+	transition: 0.2s;
+}
+
+.btn:hover, .btn:active {
+	background-color: #cb5220;
+	border: solid 2px #cb5220;
+	box-shadow: none;
+	transition: 0.2s;
+}
+
+.btn.inverted, .inverted.btn:link, .inverted.btn:visited {
+	background-color: rgba(0,0,0,0);
+	box-shadow: none;
+	border: solid 2px #e45d25;
+	color: #e45d25;
+	font-weight: bold;
+	transition: 0.2s;
+}
+
+.inverted.btn:hover, .inverted.btn:active {
+	border: solid 2px #cb5220;
+	color: #cb5220;
+	box-shadow: none;
+	transition: 0.2s;
+}
+
+.btn.btn-red {
+	background-color: #e04830;
+	border-color: #e04830;
+}
+
+.btn.btn-red:hover {
+	border-color: #e04830;
+	background-color: #ffffff;
+	color: #e04830;
+}
+
+.card_1:hover {
+	border: rgb(186, 186, 186) 1px solid;
+	//border: none;
+    //color: #fff !important;
+	//background-color: #e45d25;
+	transition: 0.2s;	
+}
+
+.card-content {
+    padding: 1em 1em 1.5em 1em;
+    //background-color: rgba(0,0,0,0.05);
+}
+
+.card_1 {
+    overflow: hidden;
+    padding: 0;
+	color: rgba(0,0,0,0.87);
+	transition: 0.2s;
+	margin: 0.5em;
+    border: rgb(230, 230, 230) 1px solid;
+    //border: none;
+}
+
+.cart-item {
+	border: solid 1px lightgrey;
+	margin-bottom: 1em;
+	padding : 1em;
+}
+
+
+.slider {
+    //border-width: 1px;
+    color: white;
+    display: inline-block;
+    height: auto;
+//    overflow: hidden;
+//    background-color: grey;
+}
+
+
+.slider-button {
+    position: absolute;
+    top: calc(50% - 1em);
+    color: white !important;
+    font-size: 5em;
+    z-index: 5;
+}
+
+    
+.slider-content {
+    opacity:1;
+    transition: 1s;
+}
+
+.cat-title {
+        padding-top: 0.5em;
+        color: #e45d25;
+        font-weight:700;
+        font-size: 1.2em;
+        border-top: solid 3px #e45d25;
+    }
+    
+.slider-image {
+    width: 100%;
+    //position: absolute;
+    image-position: center;
+}
+
+.remove{
+	opacity: 0.7;
+	position: absolute; 
+	margin-left: -1em; 
+	margin-top: -1em;
+	transition: 0.3s;
+}
+
+.remove:hover{
+	opacity: 1;
+	transition: 0.3s;
+}
+
+
+.bcrumbs a {
+	color: #404040;
+	font-size: 0.95em;
+	text-transform: uppercase;
+}
+.bcrumbs a:hover{
+	opacity: 0.7;
+}
+
+
+
+//ngide
+
+.sidenav-href {
+	margin-top: 1em;
+}
+
+.sidenav-href a {
+	color: grey;
+	transition: 0.2s;
+}
+.sidenav-href a:hover {
+	opacity: 0.7;
+	transition: 0.2s;
+}
+
+.tabs {
+	overflow-x: hidden;
+}
+
+.tabs .tab a {
+	color: grey;
+	font-weight: bold;
+}
+
+.tabs .tab a.active{
+	color: #e45d25;
+}
+
+.tabs .indicator {
+	background-color: #e45d25;
+}
+
+.fadeeffect {
+	transition: 0.1s;
+}
+
+.fadeeffect:hover {
+	opacity: 0.8;
+	transition: 0.1s;
+
+}

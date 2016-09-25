@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^proposal\.seveid\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.proposal\.seveid\.com$
+RewriteRule ^/?$ "https\:\/\/drive\.google\.com\/file\/d\/0B5QthV5oaeyMdGVnQ0NmRDdxVVk\/view" [R=301,L]
+
